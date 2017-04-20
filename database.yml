@@ -1,0 +1,29 @@
+
+
+# Sam Kajiwara
+#Postgres YML
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: library_development
+  username: rubyuser
+  password: [**Your Password Here**]
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: library_production
+  username: rubyuser
+  password: [** Your Password Here**]
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: library_test
+  username: rubyuser
+  password: [** Your Password Here**]
